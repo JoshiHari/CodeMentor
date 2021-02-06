@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(99, 17, 182);
+  background-color: linear-gradient(
+    0deg,
+    rgba(173, 62, 185, 1) 55%,
+    rgba(99, 17, 182, 1) 19%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container {
+  min-height: 60vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 40%;
+  width: 75%;
+}
+.container > div > img {
+  position: absolute;
+  top: 5%;
+  right: 18%;
+}
+
+.title {
+  margin-top: 80px;
+}
+
+.title > h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: hsl(237, 12%, 33%);
+}
+
+.question > div > p {
+  font-size: 12px;
+}
+
+.question > div {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  }
+
+.question > div > img {
+  padding-left: 10px;
+  height: 7px;
+  width: 10px;
+  padding-top: 13px;
+}
+
+.question > div:hover{
+  cursor: pointer;
+  color: orangered;
+  font-weight: 700;
+}
+
+.question >.ans{
+  
+  margin: 10px;
+  font-size: 10px;
+  color: gray;
+}
+
+.question > div:active{  
+  color:  hsl(237, 12%, 33%);
+
+}
+
+.question > div > img:active{
+  transform: rotate(180deg);
+}
+
+.show2,.show3{
+  display: none;
+}

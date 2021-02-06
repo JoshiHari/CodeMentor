@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 0px) and (max-width: 375px)"
+      href="mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 376px) and (max-width: 1440px)"
+      href="desktop.css"
+    />
+  </head>
+  <body onload="hidepara()">
+    <div class="container">
+      <div class="header">
+        <img class="show" src="images/illustration-woman-online-mobile.svg" />
+        <img class="show2" src="images/illustration-woman-online-desktop.svg" />
+        <img class="show3" src="images/illustration-box-desktop.svg" />
+      </div>
+      <div class="title">
+        <h2>FAQ</h2>
+
+        <div class="question">
+          <div id="one" onclick="answer(this)">
+            <p class="ques">How many team members can I invite?</p>
+            <img src="images/icon-arrow-down.svg" />
+          </div>
+          <div class="ans">
+            <p>
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </div>
+          <div id="two" onclick="answer(this)">
+            <p class="ques">What is the maximum file upload size?</p>
+            <img src="images/icon-arrow-down.svg" />
+          </div>
+          <div class="ans">
+            <p>
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </div>
+          <div id="three" onclick="answer(this)">
+            <p class="ques">How do i reset my password?</p>
+            <img src="images/icon-arrow-down.svg" />
+          </div>
+          <div class="ans">
+            <p>
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </div>
+          <div id="four" onclick="answer(this)">
+            <p class="ques">Can i cancel my subscription?</p>
+            <img src="images/icon-arrow-down.svg" />
+          </div>
+          <div class="ans">
+            <p>
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </div>
+          <div id="five" onclick="answer(this)">
+            <p class="ques">Do you provide additional support?</p>
+            <img src="images/icon-arrow-down.svg" />
+          </div>
+          <div class="ans">
+            <p>
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="scripts.js"></script>
+</html>
